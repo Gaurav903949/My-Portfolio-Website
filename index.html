@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Gaurav Kumar - Biochemical Engineer & Data Scientist. Discover research in wastewater treatment, microplastics removal, BioSTEAM biorefineries, and machine learning projects.">
+    <meta name="author" content="Gaurav Kumar">
+    <title>Gaurav Kumar | Biochemical Engineer & Data Analyst Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Montserrat:wght@400;600;800&family=Outfit:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Particle Canvas Background -->
+    <canvas id="hero-canvas"></canvas>
+
+    <!-- Header / Navigation -->
+    <header class="glass-header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>GK<span class="logo-accent">/&gt;</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#thesis" class="nav-link">Research Focus</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link contact-btn">Let's Connect</a>
+            </nav>
+            <div class="mobile-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-flask-vial"></i> Biochemical Engineering + Data Science
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-glow">Gaurav Kumar</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Bridging Biotechnology, Sustainability, and Machine Learning</h2>
+                    <p class="hero-description">
+                        I am an Integrated Dual Degree (B.Tech + M.Tech) scholar in Biochemical Engineering and
+                        Biotechnology at <strong>IIT (BHU) Varanasi</strong>. I engineer sustainable biochemical
+                        processes and extract data-driven insights to tackle critical environmental challenges like
+                        water pollution and resource optimization.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#thesis" class="btn btn-primary">
+                            <span>Explore My Research</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-blob-wrapper">
+                        <div class="visual-blob"></div>
+                        <div class="visual-card floating-card-1">
+                            <i class="fa-solid fa-circle-nodes icon-blue"></i>
+                            <div>
+                                <h4>Machine Learning</h4>
+                                <p>Random Forest, KNN, SMOTE</p>
+                            </div>
+                        </div>
+                        <div class="visual-card floating-card-2">
+                            <i class="fa-solid fa-seedling icon-green"></i>
+                            <div>
+                                <h4>Biochar Filtration</h4>
+                                <p>98.21% Microplastics Removal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fa-solid fa-chevron-down animate-bounce"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">My Background</span>
+                    <h2 class="section-title">Who I Am</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info">
+                        <p class="lead-text">
+                            I am a biochemical engineer with a passion for using data science and programming to
+                            optimize biotechnology and agricultural systems.
+                        </p>
+                        <p>
+                            During my academic journey at the <strong>Indian Institute of Technology (BHU),
+                                Varanasi</strong>, I have engaged in research that integrates microbiology, process
+                            simulation, and machine learning. I believe that the future of biotechnology lies at the
+                            intersection of biological complexity and predictive modeling, allowing us to build cleaner
+                            biorefineries and preserve environmental ecosystems.
+                        </p>
+
+                        <div class="philosophy-cards">
+                            <div class="philosophy-card">
+                                <div class="card-icon"><i class="fa-solid fa-bacteria"></i></div>
+                                <h3>Bioprocess Engineering</h3>
+                                <p>Modeling biorefineries and microbial kinetics to enhance yield and
+                                    cost-effectiveness.</p>
+                            </div>
+                            <div class="philosophy-card">
+                                <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                                <h3>Data Analytics & ML</h3>
+                                <p>Developing classification and prediction models to process biological and industrial
+                                    data.</p>
+                            </div>
+                            <div class="philosophy-card">
+                                <div class="card-icon"><i class="fa-solid fa-recycle"></i></div>
+                                <h3>Circular Bioeconomy</h3>
+                                <p>Converting agricultural waste into functional products to recover resources and treat
+                                    wastewater.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-education">
+                        <h3>Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2021 - 2026</div>
+                                <h4 class="timeline-title">Integrated Dual Degree (B.Tech + M.Tech)</h4>
+                                <p class="timeline-subtitle">Bio-Chemical Engineering and Biotechnology</p>
+                                <p class="timeline-inst">Indian Institute of Technology (BHU), Varanasi</p>
+                                <span class="badge">CGPA: 8.68 / 10</span>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2021</div>
+                                <h4 class="timeline-title">CBSE Class XII (Senior Secondary)</h4>
+                                <p class="timeline-subtitle">PCMB (Physics, Chemistry, Math, Biology)</p>
+                                <p class="timeline-inst">GVN The Global School, Bhopal</p>
+                                <span class="badge">Percentage: 92.00%</span>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2019</div>
+                                <h4 class="timeline-title">CBSE Class X (Secondary)</h4>
+                                <p class="timeline-inst">Kendriya Vidyalaya Bairagarh, Bhopal</p>
+                                <span class="badge">Percentage: 96.00%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Work & Internships</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="experience-card glass-card">
+                    <div class="exp-header">
+                        <div class="exp-role">
+                            <h3>Research Intern — BioSTEAM Flowsheet Modeler</h3>
+                            <span class="company">School of Biochemical Engineering, IIT BHU</span>
+                        </div>
+                        <span class="exp-date">May 2025 — July 2025</span>
+                    </div>
+                    <h4 class="project-title-link">Project: Designing and Analyzing a Model-based Lactic Acid
+                        Biorefinery</h4>
+                    <div class="exp-body">
+                        <p>
+                            Worked on modeling and evaluating a highly sustainable process for Lactic Acid production
+                            from lignocellulosic biomass. This approach focuses on circular economy principles by
+                            replacing traditional chemical-heavy methods with green biological pathways.
+                        </p>
+                        <ul class="bullet-list">
+                            <li>Studied state-of-the-art biological pretreatment strategies that significantly lower
+                                cooling demands and hazardous chemical usage.</li>
+                            <li>Designed and assembled process flowsheets using <strong>BioSTEAM</strong>, a
+                                Python-based open-source biorefinery simulation and optimization package.</li>
+                            <li>Modeled process unit operations, mass balances, and energy balances to run
+                                multi-scenario simulations.</li>
+                            <li>Planned and structured the framework for Techno-Economic Analysis (TEA) and Life Cycle
+                                Assessment (LCA) to prove economic viability and environmental sustainability.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="tag">BioSTEAM</span>
+                            <span class="tag">Biorefinery Modeling</span>
+                            <span class="tag">TEA / LCA</span>
+                            <span class="tag">Process Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section (Thesis Spotlight) -->
+        <section id="thesis" class="thesis-section bg-gradient">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Master's Thesis Spotlight</span>
+                    <h2 class="section-title">Wastewater Reuse & Microplastic Removal</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="thesis-wrapper glass-card">
+                    <div class="thesis-grid">
+                        <div class="thesis-text">
+                            <div class="academic-meta">
+                                <span><i class="fa-solid fa-graduation-cap"></i> M.Tech Thesis (2025 - 2026)</span>
+                                <span><i class="fa-solid fa-user-tie"></i> Supervised by: Dr. Abhishek Suresh
+                                    Dhoble</span>
+                            </div>
+                            <h3>Wastewater Reuse Potential in Agriculture & Biochar for Microplastic Removal</h3>
+                            <p class="thesis-desc">
+                                My dual-faceted Master's thesis combines spatial water resource modeling with advanced
+                                physical separation engineering to develop a circular economy treatment loop.
+                            </p>
+
+                            <div class="thesis-features">
+                                <div class="tf-item">
+                                    <div class="tf-number">98.21%</div>
+                                    <div class="tf-label">Max Removal Efficiency achieved with Banana Peel Biochar</div>
+                                </div>
+                                <div class="tf-item">
+                                    <div class="tf-number">500 °C</div>
+                                    <div class="tf-label">Slow Pyrolysis Temperature for Feedstock Carbonization</div>
+                                </div>
+                            </div>
+
+                            <h4 class="subsection-title">Key Research Contributions:</h4>
+                            <ul class="bullet-list">
+                                <li><strong>UP Wastewater Reuse Case Study:</strong> Analyzed rainfall trends,
+                                    population dynamics, and sewage treatment capacity up to 2050. Proved that current
+                                    groundwater irrigation is unsustainable and mapped spatial distribution of water
+                                    stress to identify treated wastewater reuse hotspots.</li>
+                                <li><strong>Agro-Waste Biochar Synthesis:</strong> Carbonized banana peel, rice straw,
+                                    and coconut husk using slow pyrolysis. Characterized materials using bulk density,
+                                    pH, moisture analysis, and <strong>FTIR Spectroscopy</strong>.</li>
+                                <li><strong>Fixed-Bed Column Filtration:</strong> Designed and conducted continuous-flow
+                                    filtration experiments to remove Polyethylene Microplastics (100–200 µm) from
+                                    irrigation waters.</li>
+                                <li><strong>Key Discovery:</strong> Physical mixtures of agricultural biochars
+                                    outperformed co-pyrolysed biochar. Rice straw biochar demonstrated the highest
+                                    operational stability.</li>
+                            </ul>
+                        </div>
+                        <div class="thesis-visual">
+                            <div class="microplastic-filtration-card">
+                                <h4 class="card-title">Fixed-Bed Column Setup</h4>
+                                <div class="column-diagram">
+                                    <div class="column-part column-inlet">
+                                        <span>Microplastic Suspension (100-200 µm)</span>
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </div>
+                                    <div class="column-part column-sand">
+                                        <span>Sieved Sand Layer (&gt;500 µm)</span>
+                                    </div>
+                                    <div class="column-part column-biochar">
+                                        <span>Agro-Waste Biochar Filter (Pyrolysed @ 500°C)</span>
+                                        <div class="biochar-types">
+                                            <span>Banana Peel</span>
+                                            <span>Rice Straw</span>
+                                            <span>Coconut Husk</span>
+                                        </div>
+                                    </div>
+                                    <div class="column-part column-outlet">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                        <span>Filtered Water (Circular Economy Loop)</span>
+                                    </div>
+                                </div>
+                                <div class="efficiency-indicator">
+                                    <div class="efficiency-bar" style="width: 98%;"></div>
+                                    <span>Banana Peel Biochar: 98.21% Removal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Academic Portfolio</span>
+                    <h2 class="section-title">Selected Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card">
+                        <div class="project-icon"><i class="fa-solid fa-cow"></i></div>
+                        <div class="project-content">
+                            <span class="project-date">Dec 2024 — Jan 2025</span>
+                            <h3>Cow Breed Classification using GC-MS & Machine Learning</h3>
+                            <p>
+                                Developed a chemical-fingerprinting classification model to automate the identification
+                                of cow breeds based on GC-MS urine compounds.
+                            </p>
+                            <ul class="bullet-list project-highlights">
+                                <li>Analyzed gas chromatography-mass spectrometry peak area data for indigenous (Gir,
+                                    Tharparkar, Hariana, Gangatiri, Sahiwal) and cross-breed (Jersey) cows.</li>
+                                <li>Implemented Feature Selection based on Mutual Information (MI) scores (threshold of
+                                    0.05).</li>
+                                <li>Built a Random Forest Classifier optimized with Grid Search Cross-Validation (CV).
+                                </li>
+                                <li>Targeted applications in detecting adulteration in organic dairy chains and
+                                    automating health monitoring.</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-tags">
+                                    <span class="tag">Machine Learning</span>
+                                    <span class="tag">Random Forest</span>
+                                    <span class="tag">GC-MS Data</span>
+                                    <span class="tag">Python</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card">
+                        <div class="project-icon"><i class="fa-solid fa-users-slash"></i></div>
+                        <div class="project-content">
+                            <span class="project-date">Dec 2024 — Jan 2025</span>
+                            <h3>Customer Churn Prediction Model</h3>
+                            <p>
+                                Created a predictive machine learning pipeline to identify customers likely to
+                                deactivate telecom services.
+                            </p>
+                            <ul class="bullet-list project-highlights">
+                                <li>Employed data preprocessing: missing value imputation, scaling, and handled class
+                                    imbalance using **SMOTE** (Synthetic Minority Over-sampling Technique).</li>
+                                <li>Conducted statistical hypothesis testing (two-sample T-test) and correlation
+                                    analysis on customer service records.</li>
+                                <li>Trained and tuned KNN and Random Forest classifiers using Grid Search and achieved
+                                    an **F1 score of 0.78**.</li>
+                                <li>Extracted feature importance, identifying customer service calls and total day
+                                    minutes as the primary churn indicators.</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-tags">
+                                    <span class="tag">Data Analytics</span>
+                                    <span class="tag">SMOTE</span>
+                                    <span class="tag">Random Forest</span>
+                                    <span class="tag">KNN</span>
+                                    <span class="tag">F1: 0.78</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card">
+                        <div class="project-icon"><i class="fa-solid fa-chart-area"></i></div>
+                        <div class="project-content">
+                            <span class="project-date">Jan 2024 — May 2024</span>
+                            <h3>Microbial Dynamics Tracking using R & Dalmatian Plot</h3>
+                            <p>
+                                Programmed an analytics workflow in R to track compositional changes in anaerobic
+                                digestion microbial cultures over time.
+                            </p>
+                            <ul class="bullet-list project-highlights">
+                                <li>Replicated the Dalmatian Plot technique using flow cytometry data collected over a
+                                    40-day timeframe in triplicate.</li>
+                                <li>Gated and analyzed cytometric dot plots using ImageJ for morphological features.
+                                </li>
+                                <li>Generated Dalmatian Plots in R to visualize changes in community structure, helping
+                                    diagnose digester instabilities before chemical failures occur.</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-tags">
+                                    <span class="tag">R Programming</span>
+                                    <span class="tag">ImageJ</span>
+                                    <span class="tag">Flow Cytometry</span>
+                                    <span class="tag">Microbial Ecology</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card glass-card">
+                        <div class="project-icon"><i class="fa-solid fa-circle-nodes"></i></div>
+                        <div class="project-content">
+                            <span class="project-date">Ongoing</span>
+                            <h3>WWTP Pharmaceutical Compound Analysis</h3>
+                            <p>
+                                Data-driven ecological risk assessment of active pharmaceutical ingredients in municipal
+                                wastewater.
+                            </p>
+                            <ul class="bullet-list project-highlights">
+                                <li>Analyzed influent, effluent, and removal efficiency of 20+ psychiatric and
+                                    therapeutic drugs.</li>
+                                <li>Created removal efficiency heatmaps and mass balance flow diagrams (Sankey charts).
+                                </li>
+                                <li>Calculated Risk Quotients (RQ) based on Predicted No-Effect Concentrations (PNEC) to
+                                    identify ecotoxicological threat hotspots in water bodies.</li>
+                            </ul>
+                            <div class="project-footer">
+                                <div class="tech-tags">
+                                    <span class="tag">Data Analysis</span>
+                                    <span class="tag">Ecotoxicology</span>
+                                    <span class="tag">Sankey Diagrams</span>
+                                    <span class="tag">Heatmaps</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section bg-gradient">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">What I Bring to the Table</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skills-category glass-card">
+                        <h3><i class="fa-solid fa-code"></i> Programming & Languages</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Python</span><span>85%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>C / C++</span><span>80%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>R Programming</span><span>75%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Microsoft Excel</span><span>90%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Biotech & Environmental -->
+                    <div class="skills-category glass-card">
+                        <h3><i class="fa-solid fa-microscope"></i> Bioprocess & Environmental</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>BioSTEAM (Biorefinery Simulation)</span><span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Pyrolysis & Biochar Synthesis</span><span>90%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Fixed-Bed Column Filtration</span><span>90%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>FTIR Spectroscopy &
+                                        Characterization</span><span>80%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Data Science & ML -->
+                    <div class="skills-category glass-card">
+                        <h3><i class="fa-solid fa-brain"></i> Data Science & Machine Learning</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Exploratory Data Analysis (EDA)</span><span>88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 88%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Classification Models (Random Forest,
+                                        KNN)</span><span>82%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 82%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Data Preprocessing & Resampling
+                                        (SMOTE)</span><span>85%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Statistical Analysis & Hypothesis
+                                        Testing</span><span>80%</span></div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Extra-Curriculars -->
+        <section class="certifications-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Beyond Academics</span>
+                    <h2 class="section-title">Certifications & Leadership</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="extra-grid">
+                    <div class="extra-card glass-card">
+                        <div class="extra-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <h3>Certified Courses</h3>
+                        <ul class="bullet-list">
+                            <li><strong>C/C++ Programming:</strong> Successfully completed a comprehensive 2-phase
+                                intensive Software Training workshop conducted by Globant.</li>
+                            <li><strong>Positive Thinker Course:</strong> Completed an personal growth program at the
+                                <em>University of Melbourne</em>, focusing on strategies for cognitive reframing and
+                                resilient mental health.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="extra-card glass-card">
+                        <div class="extra-icon"><i class="fa-solid fa-users"></i></div>
+                        <h3>Leadership & Volunteering</h3>
+                        <ul class="bullet-list">
+                            <li><strong>Scientific Social Responsibility (SSR) Volunteer:</strong> Assisted in
+                                coordinating outreach activities. Taught and demonstrated biotech applications to 25+
+                                local school children.</li>
+                            <li><strong>Organizing Member — XPRESSION'23:</strong> Key team member of the mental
+                                wellness wing of the mega youth festival, which successfully engaged over 8,000+
+                                attendees.</li>
+                        </ul>
+                    </div>
+
+                    <div class="extra-card glass-card">
+                        <div class="extra-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>National Cadet Corps (NCC)</h3>
+                        <ul class="bullet-list">
+                            <li>Served in the NCC for two years under the unit <strong>4 MP BN NCC</strong>.</li>
+                            <li>Completed a rigorous 10-day NCC Training Camp (Oct 23 — Nov 01, 2017).</li>
+                            <li>Awarded the official **NCC 'A' Certificate** for discipline, service, and military
+                                training.</li>
+                            <li>Led the unit team in the camp Tug of War competition, finishing in **1st Place**.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Information</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-wrapper glass-card">
+                    <div class="contact-grid">
+                        <div class="contact-details">
+                            <h3>Let's collaborate!</h3>
+                            <p>
+                                I am always open to discussing new research opportunities, engineering collaborations,
+                                machine learning projects, or professional positions in biotechnology and data analysis.
+                            </p>
+
+                            <div class="contact-info-list">
+                                <div class="contact-info-item">
+                                    <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <div class="ci-text">
+                                        <span>Email Me</span>
+                                        <a href="mailto:gk7223899341@gmail.com">gk7223899341@gmail.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+                                    <div class="ci-text">
+                                        <span>Call Me</span>
+                                        <a href="tel:+917024894543">+91 7024894543</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <div class="ci-text">
+                                        <span>Address</span>
+                                        <p>H.No - 21B, New Sainik Colony, Bairagarh Kalan, Bhopal - 462030, Madhya
+                                            Pradesh, India</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <div class="ci-icon"><i class="fa-solid fa-university"></i></div>
+                                    <div class="ci-text">
+                                        <span>Affiliation</span>
+                                        <p>School of Biochemical Engineering, IIT (BHU) Varanasi, Uttar Pradesh - 221005
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="https://github.com" target="_blank" aria-label="GitHub"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="CV"><i class="fa-solid fa-file-pdf"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-wrapper">
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject"
+                                        placeholder="Collaboration / Job Opportunity" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="5"
+                                        placeholder="Write your message here..." required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary form-submit">
+                                    <span>Send Message</span>
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                                <div class="form-feedback" id="form-feedback"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Gaurav Kumar. All Rights Reserved.</p>
+            <p>Designed with <i class="fa-solid fa-heart icon-heart"></i> at IIT BHU.</p>
+            <button id="back-to-top" class="back-to-top-btn" aria-label="Back to Top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
